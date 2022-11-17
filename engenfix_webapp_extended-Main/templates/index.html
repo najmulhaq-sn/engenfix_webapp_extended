@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>EngenFix</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="static/img/favicon.png" rel="icon">
+  <link href="static/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="static/vendor/aos/aos.css" rel="stylesheet">
+  <link href="static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="static/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="static/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="static/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="static/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="static/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Day - v4.8.0
+  * Template URL: https://bootstrapmade.com/day-multipurpose-html-template-for-free/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Top Bar ======= -->
+  <section id="topbar" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-envelope-fill"></i><a href="mailto:contact@example.com">info@engenai.lk</a>
+        <i class="bi bi-phone-fill phone-icon"></i> +94 71 7750277
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="logo"><a href="index.html">EngenFix</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo"><img src="static/img/logo.png" alt="" class="img-fluid"></a>-->
+
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container position-relative" data-aos="fade-up" data-aos-delay="500">
+      <h1>Inteligent Damage Assement</h1>
+      <h2>Upload Image of a Vehicle to Access the Damages</h2>
+      
+      <form action="/submit" method="post" enctype="multipart/form-data" class="btn-get-started scrollto">
+        <!-- <input type="text" name="assignment"> -->
+        <input type="file" name="file" class="btn-get-started scrollto">
+        <input type="submit" class="btn-get-started scrollto">
+    
+    </form>
+    </div>
+
+    <div>
+              <!-- Upload  -->
+        <!-- <form id="file-upload-form" class="uploader">
+          <input id="file-upload" type="file" name="fileUpload" accept="image/*" />
+
+          <label for="file-upload" id="file-drag">
+            <img id="file-image" src="#" alt="Preview" class="hidden">
+            <div id="start">
+              <i class="fa fa-download" aria-hidden="true"></i>
+              <div>Select a file or drag here</div>
+              <div id="notimage" class="hidden">Please select an image</div>
+              <span id="file-upload-btn" class="btn btn-primary">Select a Image</span>
+            </div>
+            <div id="response" class="hidden">
+              <div id="messages"></div>
+              <progress class="progress" id="file-progress" value="0">
+                <span>0</span>%
+              </progress>
+            </div>
+          </label>
+        </form>
+    </div>-->
+
+  </section> 
+  <!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left">
+            <img src="static/img/about.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
+            <h3>EngenFix Project</h3>
+            <p class="fst-italic">
+              The Engen Fix is a computer vision based Ai platform that automatically assesses the level of damage
+               in a vehicle following an accident and generates a comprehensive
+                damage report, including a part-wise repair or replace recommendation
+            </p>
+            <h4> Product Capabilities</h4>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> User uploaded images are instantly processed using an Ai engine and and a report detailing the locations,
+                type and extent of damage is generated. If additional images are required the user is prompted on site..</li>
+              <li><i class="bi bi-check-circle"></i> The advanced Ai algorithm cross checks the damage on the vehicle against a database of 
+                images to estimate possible internal damage.</li>
+              <li><i class="bi bi-check-circle"></i> The damage reports are analysed to determine parts to be repaired and replaced, which is used together with past 
+                accident information and market prices to estimate the damage valuation.</li>
+                <li><i class="bi bi-check-circle"></i> Image analysis can determine if loss photos submitted by claimants have been tampered with or if the image timestamp is before the date of loss. </li>
+            </ul>
+            <p>
+              A state of the art Computer Vision based customized algorithm was trained to identify vehicle types, vehicle orientation,
+               vehicle damage status and the level of damage. A report generated from the images can then be used by an assessor to determine whether
+               a vehicle visit is required or the images can be directly processed using through a parts database to estimate the repair cost.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team">
+      <div class="container">
+
+        <div class="section-title">
+          <span>Team</span>
+          <h2>Team</h2>
+          <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in">
+            <div class="member">
+              <img src="static/img/team/team-1.jpg" alt="">
+              <h4>Walter White</h4>
+              <span>Chief Executive Officer</span>
+              <p>
+                Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut
+              </p>
+              <div class="social">
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in">
+            <div class="member">
+              <img src="static/img/team/team-2.jpg" alt="">
+              <h4>Sarah Jhinson</h4>
+              <span>Product Manager</span>
+              <p>
+                Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum rerum temporibus
+              </p>
+              <div class="social">
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in">
+            <div class="member">
+              <img src="static/img/team/team-3.jpg" alt="">
+              <h4>William Anderson</h4>
+              <span>CTO</span>
+              <p>
+                Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum toro des clara
+              </p>
+              <div class="social">
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Team Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <span>Contact</span>
+          <h2>Contact</h2>
+          <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+          <div class="col-lg-6">
+            <div class="info-box mb-4">
+              <i class="bx bx-map"></i>
+              <h3>Our Address</h3>
+              <p>A108 Adam Street, New York, NY 535022</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="info-box  mb-4">
+              <i class="bx bx-envelope"></i>
+              <h3>Email Us</h3>
+              <p>contact@example.com</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="info-box  mb-4">
+              <i class="bx bx-phone-call"></i>
+              <h3>Call Us</h3>
+              <p>+1 5589 55488 55</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row" data-aos="fade-up">
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="static/vendor/aos/aos.js"></script>
+  <script src="static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="static/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="static/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="static/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="static/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="static/js/main.js"></script>
+
+</body>
+
+</html>
+
+<!-- <script>
+  function previewImages() {
+
+var preview = document.querySelector('#preview');
+
+if (this.files) {
+  [].forEach.call(this.files, readAndPreview);
+}
+
+function readAndPreview(file) {
+
+  // Make sure `file.name` matches our extensions criteria
+  if (!/\.(jpe?g|png|gif)$/i.test(file.name)) {
+    return alert(file.name + " is not an image");
+  } // else...
+
+  var reader = new FileReader();
+
+  reader.addEventListener("load", function() {
+    var image = new Image();
+    image.height = 100;
+    image.title  = file.name;
+    image.src    = this.result;
+    preview.appendChild(image);
+  });
+
+  reader.readAsDataURL(file);
+
+}
+
+}
+
+document.querySelector('#file-input').addEventListener("change", previewImages);
+</script> -->
